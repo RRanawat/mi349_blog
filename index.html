@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog App</title>
 </head>
+
 <body>
-    <h1>Blog Page</h1>
+    <header>
+        <h1>MI349 Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Blogs</h1>
+        <article>
+            <header>
+                <h2>The Research King of AI - Google</h2>
+                <p><time datetime="2024-10-13">October 13, 2024</time> by <b>Rivaan Ranawat</b></p>
+            </header>
+            <img src="./images/google-logo.png" alt="Google Logo" height="350">
+            <p>Google was founded in 1998 by Larry Page and Sergey Brin. It was initially started as a search engine
+                named Backrub and later on changed their named to Google (thank you!). Search engine remains their core
+                product but the company has expanded ever since. They have more than half a dozen products with over 1
+                billion users. All of these products have been a great contributor to changing people's lives - Google
+                Maps changed the way we navigate, YouTube changed the way we consume content, Google Search changed the
+                way we access data! What's interesting is a simple clone of these products is not easy to build even
+                now. Think of building Google Maps - how would you go about it? You need to have lots of data about
+                roads (and initially to collect this data, Google vans/cars used to roam around the city), you need
+                routing algorithms, you need traffic information. All of this required research. Even the products that
+                don't have a billion useers, like Google Translate have so much research done behind the scenes. The fun
+                fact is Google Translate (today) uses Transformer architecture behind the scenes - the same architecture
+                used by ChatGPT (GPT stands for Generate Pretrained Tranformer). This Transformer architecture was also
+                introduced by researchers at Google! So, yes, ChatGPT exists because of Google. Think about the great
+                work they're still doing as they invest more heavily in AI/ML. Their projects which are not as famous
+                are going to change the world forever, like Waymo! Truly, the king of AI Research.
+            </p>
+        </article>
+
+        <article>
+            <header>
+                <h2>The Strong Base of AI - Nvidia</h2>
+                <p><time datetime="2024-10-13">October 13, 2024</time> by <b>Rivaan Ranawat</b></p>
+            </header>
+            <img src="./images/nvidia-logo.png" alt="NVIDIA Logo" height="300">
+            <p>Nvidia was founded by Jensen Huang, Chris Malachaowsky and Curtis Priem in 1993. From 1993 to 1999, they
+                did great work, no doubt. They sold more than a million units, introducing processors to render 2D and
+                3D images but I believe their greatest hit and what decided their future trajectory was in 1999, when
+                they introduced the world to the first GPU ever - GeForce 256 (and also went public at 12$ per share).
+                The company has been redefining themselves ever since despite "just" making GPUs. They literally created
+                an industry which is the hottest thing of AI right now. GPUs are in demand so much that NVIDIA (legally,
+                it is NVIDIA, not Nvidia) is a $3.3T company despite a P/E ratio of 63.26 and only 30,000 employees
+                (flex, I was one of them (intern)). This might seem like an extremely hyped company and maybe it is but
+                I think there is good reasoning behind this - GPUs are really good at matrix multiplication - They are
+                very fast. They allow programmers to code in that general purpose GPU using CUDA. And that's what AI is
+                about, matrix multiplication and allowing engineers to have control over their GPUs so that they can
+                efficiently use it. No wonder, Nvidia is a go-to for all the major big name tech corporations right now
+                - Google, Microsoft, OpenAI, Tesla, xAI, Oracle. Each of these GPUs cost more than $30,000 and recently
+                Elon Musk announced the completion of building a supercompute cluster using 100,000 of the GPUs (H100)
+                in 4 months. Think about it - $3B revenue for Nvidia in 4 months. According to reports, Microsoft is the
+                biggest client of Nvidia. And Microsoft owns about 49% of OpenAI - That's why I say Nvidia is the base
+                of all AI that's happening! Now, for how long that's going to remain, I don't know. Tesla, I know is
+                building their own chip, Amazon too. Google has TPUs which is better at inferencing (getting conclusion)
+                and probably even training than a GPU but hardware business is so tough - it's going to take some time
+                until someone really replaces Nvidia as they even try to lock the companies in their ecosystem and build
+                data centers of their own, knowingly or unknowingly competing with AWS (i guess), Amazon's biggest
+                source of revenue. AMD looks good too but they're playing a catchup game and Intel is just out but will
+                be interesting to see if they make a comeback.
+            </p>
+        </article>
+    </main>
 </body>
+
 </html>
