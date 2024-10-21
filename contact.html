@@ -20,7 +20,29 @@
     </header>
 
     <main>
-        <h1>Contact</h1>
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input id="email" type="email" name="email" required>
+            <br><br>
+
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="hi">Saying Hi</option>
+                <option value="contractor">Looking for a Contractor</option>
+                <option value="interview">Interested in an Interview</option>
+            </select>
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
     </main>
 </body>
 
