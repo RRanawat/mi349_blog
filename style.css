@@ -38,3 +38,30 @@ header nav a {
 header nav a:hover {
     background-color: #34495e;
 }
+
+.header-blog-title {
+    color: #34495e;
+}
+
+h1, h2, h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
