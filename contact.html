@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Contact Page</title>
 </head>
-
 <body>
     <header class="navbar-header">
         <h1>MI349 Blog</h1>
@@ -21,30 +19,43 @@
     </header>
 
     <main>
-        <h1>Contact Us</h1>
-        <form>
-            <label for="name">Name:</label>
-            <input id="name" type="text" name="name" required>
-            <br><br>
+        <h1 class="contact-me-title">Contact Us</h1>
+        <form class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input id="email" type="email" name="email" required>
+                </div>
+            </div>
 
-            <label for="email">Email Address:</label>
-            <input id="email" type="email" name="email" required>
-            <br><br>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="reason">Reason for Contact:</label>
+                    <select id="reason" name="reason">
+                        <option value="hi">Saying Hi</option>
+                        <option value="contractor">Looking for a Contractor</option>
+                        <option value="interview">Interested in an Interview</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input id="phone" type="tel" name="phone">
+                </div>
+            </div>
 
-            <label for="reason">Reason for Contact:</label>
-            <select id="reason" name="reason">
-                <option value="hi">Saying Hi</option>
-                <option value="contractor">Looking for a Contractor</option>
-                <option value="interview">Interested in an Interview</option>
-            </select>
-            <br><br>
+            <div class="form-group full-width">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
-
-            <button type="submit">Submit</button>
+            <div class="form-group full-width">
+                <button type="submit">Submit</button>
+            </div>
         </form>
     </main>
 </body>
-
 </html>
